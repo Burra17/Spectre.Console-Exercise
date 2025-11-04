@@ -11,6 +11,7 @@ namespace Spectre.Console_Exercise
             AnsiConsole.MarkupLine("[slowblink]Hello World[/]"); // Skriv ut "Hello World" med en blinkande effekt
 
             AnsiConsole.Markup("Hello world! "); // Skriv ut "Hello world!" utan radbrytning istället för Console.Write
+            AnsiConsole.WriteLine();
 
             AnsiConsole.MarkupLine("[underline]This is underlined text.[/]"); // Skriv ut understruken text
 
