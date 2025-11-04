@@ -73,7 +73,7 @@ namespace Spectre.Console_Exercise
             List<string> favouriteName = AnsiConsole.Prompt( 
                 new MultiSelectionPrompt<string>() // Kan välja flera alternativ
                     .Title("Which are your favourite names?") // Titel
-                    .InstructionsText("Press <space to toggle, <enter> to accept") // Instruktionstext till användaren
+                    .InstructionsText("Press <space> to toggle, <enter> to accept") // Instruktionstext till användaren
                     .AddChoices(petName)
                 );
             foreach ( string name in favouriteName ) // Enkel foreach för att skriva ut namnen
